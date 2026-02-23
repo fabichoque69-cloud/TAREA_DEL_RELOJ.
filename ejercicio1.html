@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reloj en el Espejo😎😎😎😎😎</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            font-size: 16px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        input {
+            border: 2px solid #ddd;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .resultado {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #d4edda;
+            border-radius: 10px;
+            text-align: center;
+            min-height: 150px;
+        }
+
+        .hora-grande {
+            font-size: 48px;
+            color: #28a745;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .hora-pequena {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .error {
+            color: #dc3545;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Reloj en el Espejo</h1>
+        <p class="hora-pequena">Ingresa la hora que ves en el espejo :</p>
+
+        <input type="text" id="horaInput" placeholder="Ejemplo: 04:45" maxlength="5" autocomplete="off">
+
+        <button onclick="calcularHoraReal()">
+            Calcular Hora Real
+        </button>
+
+        <div id="resultado" class="resultado">
+            <span class="hora-pequena">Esperando hora...</span>
+        </div>
+    </div>
+
+    <script src="reloj.js"></script>
+</body>
+
+</html>

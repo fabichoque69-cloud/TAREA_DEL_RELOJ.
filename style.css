@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.instruccion {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hora-espejo-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.hora-espejo-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.hora-espejo-valor {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.separador {
+    width: 50px;
+    height: 2px;
+    background-color: #007bff;
+    margin: 15px auto;
+}
+
+.hora-real-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.hora-real-valor {
+    font-size: 36px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 18px;
+    font-weight: bold;
+}
